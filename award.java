@@ -198,7 +198,7 @@ public class award implements ActionListener{
             }
             // if the number is 9 or 11, the player has one chance to enter one room number.
             // the computer will tell the players if the room number is right or wrong.
-            if(randomClue.get(remain) != 9 || randomClue.get(remain) != 11) {
+            if(randomClue.get(remain) == 9 || randomClue.get(remain) == 11) {
                 awardFrame.dispose();
                 // set another frame to show that.
                 checkFrame.setSize(600, 400);

@@ -37,6 +37,7 @@ public class Welcome implements ActionListener {
     Welcome(int operatorIndex, int levelIndex) {
         this.operatorIndex = operatorIndex;
         this.levelIndex = levelIndex;
+        new StaminaSystemClues();
 
 
         // set a new frame to welcome to players and do the general introduction.

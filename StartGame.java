@@ -21,7 +21,9 @@ public class StartGame implements ActionListener {
 
 
 
+
     StartGame(int operatorIndex, int levelIndex){
+
         StaminaSystemClues.chance --;
         this.operatorIndex = operatorIndex;
         this.levelIndex = levelIndex;

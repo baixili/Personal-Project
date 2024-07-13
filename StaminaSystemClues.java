@@ -93,6 +93,7 @@ public class StaminaSystemClues{
 
         // set the initial energy given only at the beginning of the game.
         if(chance == 12){
+            System.out.println(energyGiven);
             realEnergyGiven = energyGiven.get(random.nextInt(0, 3));
         }
 
